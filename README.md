@@ -14,7 +14,7 @@ npm start
 
 ## Motivation
 
-This is boilerplate to create a kanaban board using react and redux. There is no backend or persistent data.
+This Kanban Board boiler plate react application is a platform with which to practice react and redux
 
 ## Solutions branch
 * [solution]() -- not created yet
