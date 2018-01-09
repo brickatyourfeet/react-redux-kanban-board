@@ -7,7 +7,7 @@ class App extends Component {
         <div className='jumbotron'>
           <div classname='container'>
             <h1 className='display-4'>
-              React Redux Kanban Board
+              React Redux Kanban Board 🏄🏼
             </h1>
             <p>
               More practice for react and redux, you can read more about kanban <a href='https://en.wikipedia.org/wiki/Kanban_(development)'>here</a>
