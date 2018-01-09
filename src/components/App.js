@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
 
+import TodoList from '../containers/TodoList'
+import DoingList from '../containers/DoingList'
+
 class App extends Component {
   render() {
     return (
       <div>
         <div className='jumbotron'>
-          <div classname='container'>
+          <div className='container'>
             <h1 className='display-4'>
               React Redux Kanban Board 🏄🏼
             </h1>
@@ -18,9 +21,11 @@ class App extends Component {
           <div className='row'>
             <div className='col-md-4'>
               <h2>To Do</h2>
+              <TodoList />
             </div>
             <div className='col-md-4'>
               <h2>Doing</h2>
+              <DoingList />
             </div>
             <div className='col-md-4'>
               <h2>Done</h2>
